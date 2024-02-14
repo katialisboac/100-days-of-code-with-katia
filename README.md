@@ -1,4 +1,4 @@
-# 100DCODE-KA ✨
+# 100 days of code with Katia ✨
 PT-BR
 Este é um ambicioso projeto de **inicio** de transição de carreira, onde me comprometo a mergulhar de cabeça no mundo da programação web. Em um período de 100 dias, meu objetivo é absorver conhecimento de forma intensiva e aplicá-lo de maneira prática, buscando aprimorar minhas habilidades e me tornar desenvolvedora web. 
 
