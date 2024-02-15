@@ -4,53 +4,62 @@ body {
     margin: 0px;
 }
 
-#hero {
-    width: 592px;
+.conteudo {
+    width: 626px;
     margin: 0 auto 72px;
 }
 
-#hero img {
-    margin-bottom: 72px;
-}
-
 h1 {
-    font-family: 'inter', sans-serif;
-    font-size: 49px;
-    line-height: 56px;
+    font-family: 'Dosis', sans-serif;
     font-weight: normal;
 }
 
 h1 span {
     font-weight: bold;
+    color: #EE24FF;
 }
 
-span, a {
-    color: #ff9900;
+p {
+    color: #828282;
+    margin-bottom: 16px;
 }
 
-#footer {
-    margin-bottom: 33px;
+p strong {
+    color: #3F3D56;
 }
 
-p, #footer {
-    color: #7d7987;
-    font-size: 14px;
-    line-height: 28px;
+p span {
+    font-weight: bold;
+    color: #828282;
 }
 
-#footer a + a {
-    margin-left: 28px;
+
+.footer {
+    width: auto;
+    margin: auto;
 }
 
-#line {
+
+#line { 
     margin: 0 auto 8px;
-    width: 568px;
+    width: 626px;
     height: 0px;
     border: 1px #eceff2 solid;
+    margin-top: 64px;
+    margin-bottom: 16px;
 }
 
-#balls {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
+
+a {
+    font-weight: bold;
+    color: #3F3D56;
+    margin-left: 26px;
 }
+
+.wave {
+    width: 1024px;
+    margin-top: 64px;
+    width: 100%;
+    position: relative;
+}
+
