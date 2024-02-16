@@ -1,0 +1,151 @@
+/* CSS RESET*/
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul, a {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul, a {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  
+  
+/* Body */
+  
+  body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+      min-height: 100vh;
+    }
+    
+    .page {
+        width: 1000px;
+        margin: 65px auto 0px;
+    }
+
+    
+/* Header */
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    font-family: 'Mulish', sans-serif;
+}
+    
+ul {
+    display: flex;
+    gap: 48px; 
+    font-family: 'Mulish', sans-serif;
+    color: #1F1534;
+}
+
+a {
+    font-family: 'Mulish', sans-serif;
+    color: #1F1534;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    color: #1F1534;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+h1 span { 
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+
+/* Main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7d7987;
+    padding-bottom: 40px;
+}
+
+p span {
+    font-weight: bold;
+    color: #7D7987;
+}
+
+button {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    
+    background: #69b99d;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 32px 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2f6e58;
+}
+
+/* Footer */
+
+footer {
+    align-items: center;
+    font: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer p {
+    color: #1F1534; 
+}
+
+footer a {
+    font-weight: bold;
+}
+
+.balls { 
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
